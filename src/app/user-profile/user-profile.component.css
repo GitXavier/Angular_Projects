@@ -23,10 +23,8 @@ img {
   margin: 20px 0 20px 0;
 }
 
-#age {
-  visibility: hidden;
-}
+
 
 #age.actived {
-  visibility: visible;
+  visibility: hidden;
 }
