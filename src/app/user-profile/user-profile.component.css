@@ -1,0 +1,32 @@
+.user-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+img {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.block-info {
+  text-align: left;
+  margin: 20px;
+}
+
+.block-info div {
+  margin: 20px 0 20px 0;
+}
+
+#age {
+  visibility: hidden;
+}
+
+#age.actived {
+  visibility: visible;
+}

@@ -1,0 +1,30 @@
+
+<div class='user-profile'>
+
+  <div class="container">
+
+    <div class="bloc-img">
+        <img [src]="user.photo" [alt]="user.name" />
+    </div>
+
+    <div class="block-info">
+        <div><span class="text">name: </span>{{user.name}}</div>
+        <div><span class="text">firstName: </span>{{user.firstName}}</div>
+        <div><span class="text">citation: </span>{{user.quote}}</div>
+        <div><input [(ngModel)]="user.quote" placeholder="Ay Caramba"></div>
+    </div>
+
+
+    <div class="blick-age">
+        <button (click)="howOldAreYou()">How Old am I</button>
+        <h2 id="age">{{user.age}}</h2>
+    </div>
+
+  </div>
+
+<div>
+
+
+
+
+
